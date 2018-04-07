@@ -31,13 +31,6 @@ PORT=8080 npm run dev
 # Start production server:
 PORT=8080 npm start
 ```
-Docker Support
-------
-```sh
-cd express-es6-rest-api
-
-
-```
 
 License
 -------
