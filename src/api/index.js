@@ -136,6 +136,7 @@ export default ({ config }) => {
   // ===============================
   
   // Creates a bill (This is where the Billworthy team will add the information that they gathered from the photo)
+  // This is also where plaid comes in. For every bill created we should automatically charge users at the given time each month
   api.post('/bill', (req, res) => {
     // This is the expected input
     //  {
